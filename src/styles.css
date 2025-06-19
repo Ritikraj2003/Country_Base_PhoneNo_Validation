@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+form {
+  margin: 2rem;
+}
+
+ngx-intl-tel-input {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}

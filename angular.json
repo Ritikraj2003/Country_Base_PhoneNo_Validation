@@ -25,9 +25,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+  "src/styles.css",
+  "node_modules/intl-tel-input/build/css/intlTelInput.css"
+],
+"scripts": [
+  "node_modules/intl-tel-input/build/js/utils.js"
+],
+"allowedCommonJsDependencies": [
+  "google-libphonenumber"
+]
+
           },
           "configurations": {
             "production": {
@@ -87,9 +94,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/intl-tel-input/build/css/intlTelInput.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/intl-tel-input/build/js/utils.js"
+            ]
           }
         }
       }
